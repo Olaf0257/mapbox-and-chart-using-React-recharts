@@ -1,0 +1,49 @@
+.icon-tooltip {
+  height: 15px;
+  width: 15px;
+  stroke: white;
+  padding-right: 5px;
+}
+
+.border-tooltip {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  border: 0.5px solid white;
+  width: fit-content;
+  border-radius: 80px;
+  background-color: #212548;
+  padding: 1% 1%;
+  bottom: 0;
+}
+
+.btn-tooltip {
+  background-color: transparent;
+  color: white;
+  display: flex;
+  width: 80px;
+  color: black;
+  border: none;
+}
+
+.bttn-tooltip {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+.btn-tooltip,
+.bttn-tooltip {
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .recharts-tooltip-wrapper.recharts-tooltip-wrapper-left.recharts-tooltip-wrapper-top {
+    transform: translate(35px, -30px) !important;
+    width: 100% !important;
+  }
+}

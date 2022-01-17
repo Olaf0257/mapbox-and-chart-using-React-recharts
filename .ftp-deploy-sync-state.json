@@ -1,0 +1,503 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1642168167202,
+    "data": [
+        {
+            "type": "file",
+            "name": "README.md",
+            "size": 3359,
+            "hash": "70eafbc7a5fd466aa3213b5a7e1b2a41383cbe5d4e6fc5f4582efc58bdb509d1"
+        },
+        {
+            "type": "folder",
+            "name": "build"
+        },
+        {
+            "type": "file",
+            "name": "package-lock.json",
+            "size": 1304984,
+            "hash": "9ec75b38b050875f8a51009f9e4a564e31bf670f40b1929df809640b2e12dab6"
+        },
+        {
+            "type": "file",
+            "name": "package.json",
+            "size": 1251,
+            "hash": "cb87afe3fae5b09604822ec4d2e97cdfead3100bb9c818fb245432f61f33dcaa"
+        },
+        {
+            "type": "folder",
+            "name": "public"
+        },
+        {
+            "type": "folder",
+            "name": "src"
+        },
+        {
+            "type": "file",
+            "name": "build/asset-manifest.json",
+            "size": 1551,
+            "hash": "9a1849b875568506f37e47a24f341afce433ddf9bd3a3f1192e389ed491baa70"
+        },
+        {
+            "type": "file",
+            "name": "build/favicon.ico",
+            "size": 3870,
+            "hash": "3d10f7da6c603178340081668c4ac5b3ae9743ca9a262ab0fcd312fbb9f48bdd"
+        },
+        {
+            "type": "file",
+            "name": "build/index.html",
+            "size": 781,
+            "hash": "43d69bea45793b7566e1585244cce272293be7a8e7bfbe7622ba8b0497a0bf85"
+        },
+        {
+            "type": "file",
+            "name": "build/logo192.png",
+            "size": 5347,
+            "hash": "c386396ec70db3608075b5fbfaac4ab1ccaa86ba05a68ab393ec551eb66c3e00"
+        },
+        {
+            "type": "file",
+            "name": "build/logo512.png",
+            "size": 9664,
+            "hash": "9ea4f4da7050c0cc408926f6a39c253624e9babb1d43c7977cd821445a60b461"
+        },
+        {
+            "type": "file",
+            "name": "build/manifest.json",
+            "size": 492,
+            "hash": "50b3d8c3903af3f78d871b94557ab14f4e39ca192eaca3d2cfa863c867279a14"
+        },
+        {
+            "type": "file",
+            "name": "build/robots.txt",
+            "size": 67,
+            "hash": "90d24bc3bf698ac1e173739502298ccca72adf1f564fab05f484b8c48d1cadd2"
+        },
+        {
+            "type": "folder",
+            "name": "build/static"
+        },
+        {
+            "type": "file",
+            "name": "public/favicon.ico",
+            "size": 3870,
+            "hash": "3d10f7da6c603178340081668c4ac5b3ae9743ca9a262ab0fcd312fbb9f48bdd"
+        },
+        {
+            "type": "file",
+            "name": "public/index.html",
+            "size": 754,
+            "hash": "297e298ac0e326e1c2835d232ef1937e1d776396103d7775740f7df6a9896137"
+        },
+        {
+            "type": "file",
+            "name": "public/logo192.png",
+            "size": 5347,
+            "hash": "c386396ec70db3608075b5fbfaac4ab1ccaa86ba05a68ab393ec551eb66c3e00"
+        },
+        {
+            "type": "file",
+            "name": "public/logo512.png",
+            "size": 9664,
+            "hash": "9ea4f4da7050c0cc408926f6a39c253624e9babb1d43c7977cd821445a60b461"
+        },
+        {
+            "type": "file",
+            "name": "public/manifest.json",
+            "size": 492,
+            "hash": "50b3d8c3903af3f78d871b94557ab14f4e39ca192eaca3d2cfa863c867279a14"
+        },
+        {
+            "type": "file",
+            "name": "public/robots.txt",
+            "size": 67,
+            "hash": "90d24bc3bf698ac1e173739502298ccca72adf1f564fab05f484b8c48d1cadd2"
+        },
+        {
+            "type": "file",
+            "name": "src/.env",
+            "size": 111,
+            "hash": "8bbc283d122f02f979c89cc6d64f072db0b08721c1281deaf94f0c9345e529c5"
+        },
+        {
+            "type": "file",
+            "name": "src/App.css",
+            "size": 564,
+            "hash": "c5ac42e56bf8c34eb741d752bc879144f186d7ca0a48fcbb73b967177f7a9240"
+        },
+        {
+            "type": "file",
+            "name": "src/App.js",
+            "size": 166,
+            "hash": "b408687826dc49d05ae0cac62934fc5d0f6296e9c1832dfd3443ff908dabd1e4"
+        },
+        {
+            "type": "file",
+            "name": "src/App.test.js",
+            "size": 246,
+            "hash": "f7784693194b8657d1bf70c37ea70f4a2d694c4566ec41550a8e650eb600aaa4"
+        },
+        {
+            "type": "folder",
+            "name": "src/components"
+        },
+        {
+            "type": "file",
+            "name": "src/index.css",
+            "size": 530,
+            "hash": "4d2ba58e4470e97b0073d3cd644be37af1b97be65b9e768c456d6225288197e6"
+        },
+        {
+            "type": "file",
+            "name": "src/index.js",
+            "size": 500,
+            "hash": "14c67ad38f79b00139b690f6ca2ddc04525e38a0a3b34ce4ffdc820b64726aee"
+        },
+        {
+            "type": "file",
+            "name": "src/logo.svg",
+            "size": 2632,
+            "hash": "6000b0e9b0b05b3f112de04f0d039768a1db63588ff9b6ef7099dbd71632f383"
+        },
+        {
+            "type": "file",
+            "name": "src/reportWebVitals.js",
+            "size": 362,
+            "hash": "714851669856152806c289f9aac6240b414bbac50c60ee4f7e6247f31eac0c1c"
+        },
+        {
+            "type": "file",
+            "name": "src/setupTests.js",
+            "size": 241,
+            "hash": "22583759d0045fdf8d62c9db0aacba9fd8bddde79c671aa08c97dcfd4e930cc6"
+        },
+        {
+            "type": "folder",
+            "name": "build/static/css"
+        },
+        {
+            "type": "folder",
+            "name": "build/static/js"
+        },
+        {
+            "type": "folder",
+            "name": "build/static/media"
+        },
+        {
+            "type": "folder",
+            "name": "src/components/Modals"
+        },
+        {
+            "type": "folder",
+            "name": "src/components/Profiler"
+        },
+        {
+            "type": "folder",
+            "name": "src/components/Style"
+        },
+        {
+            "type": "folder",
+            "name": "src/components/UI"
+        },
+        {
+            "type": "folder",
+            "name": "src/components/assets"
+        },
+        {
+            "type": "folder",
+            "name": "src/components/config"
+        },
+        {
+            "type": "folder",
+            "name": "src/components/translation"
+        },
+        {
+            "type": "file",
+            "name": "build/static/css/main.56fc4828.css",
+            "size": 41790,
+            "hash": "9daea87e3eea905a8b8551f69b7a9752a6ff3b0fa18e63b7646e603018cd6009"
+        },
+        {
+            "type": "file",
+            "name": "build/static/css/main.56fc4828.css.map",
+            "size": 50918,
+            "hash": "3a9cef155eb6b5ddaa6c1b85a2f08255c8287ee4878dedcc0f8291a107dcd49e"
+        },
+        {
+            "type": "file",
+            "name": "build/static/js/787.cb71524b.chunk.js",
+            "size": 4566,
+            "hash": "e741e05f037611314999141c53819b6f8e910ad9e2bb06318a67109253c721ca"
+        },
+        {
+            "type": "file",
+            "name": "build/static/js/787.cb71524b.chunk.js.map",
+            "size": 10229,
+            "hash": "8dddb0658b53bb835b384225b0104b4461a56a4cf2273652e4b6683d5a63447f"
+        },
+        {
+            "type": "file",
+            "name": "build/static/js/main.316b1e38.js",
+            "size": 2054699,
+            "hash": "ffd1234551718e2847c77216c53e2a3a9d6096728f36de1fe83af56dd595f88f"
+        },
+        {
+            "type": "file",
+            "name": "build/static/js/main.316b1e38.js.LICENSE.txt",
+            "size": 5684,
+            "hash": "c3aa6925a4fc6f40d28455d8d6d6d51c2752f6427be8ea67a8eb926fd7cbfed3"
+        },
+        {
+            "type": "file",
+            "name": "build/static/js/main.316b1e38.js.map",
+            "size": 8385671,
+            "hash": "ea556f87171637476058b90637d277bad8f9a64eb4dfbea113c182e95d7f7874"
+        },
+        {
+            "type": "file",
+            "name": "build/static/media/currentPosition.0b9af678a8a76ece088d518db37c6113.svg",
+            "size": 298,
+            "hash": "dc1eee0ca26419d4414b3485a7abb22e87c230f568749a80523a166a0ad32319"
+        },
+        {
+            "type": "file",
+            "name": "build/static/media/descriptive.d40cc17eba583b4d96342439844e01aa.svg",
+            "size": 662,
+            "hash": "675609259aa3c47a1b9c1b1d641a047a77cb289ec8eda010c42efd1b4c790c6c"
+        },
+        {
+            "type": "file",
+            "name": "build/static/media/distance.10fd2e079651f61daa456edc427cfe03.svg",
+            "size": 611,
+            "hash": "11d61425a79c626a8d56dd355f52a4d4d944ac459de66b645307f01fb00fd222"
+        },
+        {
+            "type": "file",
+            "name": "build/static/media/downdist.18f8aeea0802ad6870bb996757146622.svg",
+            "size": 570,
+            "hash": "ecff4a28b36568588c2d6f05416cec1db0f260c382fe99a083342418ebb903fd"
+        },
+        {
+            "type": "file",
+            "name": "build/static/media/end_icon.bdd7e9dd2bbd142e9eb9b6e6695553e8.svg",
+            "size": 4107,
+            "hash": "4997678669adc7402536694b2a023317397707ef1f3e10115491f907af492423"
+        },
+        {
+            "type": "file",
+            "name": "build/static/media/gpxicon.2953c93396fa713e424147dfd71aa587.svg",
+            "size": 911,
+            "hash": "aa4f931b96559fa76cb36042225f2847fc1b76ab8b2653ce19adf7e92d805a34"
+        },
+        {
+            "type": "file",
+            "name": "build/static/media/start_icon.0f71d3127917064281c82a5d8835fa83.svg",
+            "size": 3399,
+            "hash": "1d4d9542d59f030b34b12f8be3392b498477825ec28e1919470bf6a63e01e0a7"
+        },
+        {
+            "type": "file",
+            "name": "build/static/media/time.9fca13178273e834669668ed57e270eb.svg",
+            "size": 429,
+            "hash": "689effb8bb4b52b100a55036a073035a9fce337797000ff4c6bcb0a1e2f57b36"
+        },
+        {
+            "type": "file",
+            "name": "build/static/media/updist.94e00335f8c47bf67ffa9094fa53fb12.svg",
+            "size": 688,
+            "hash": "940c491834308fdfe1ff637b27c8567be2b4561246be63c9233d8947d42f4239"
+        },
+        {
+            "type": "file",
+            "name": "src/components/Modals/MoreInfo.js",
+            "size": 3794,
+            "hash": "1259f8010283bdfb13ec7937d0f7082a8afbadff87797d2fa136a2634bb9e1d6"
+        },
+        {
+            "type": "file",
+            "name": "src/components/Modals/Poi.js",
+            "size": 1094,
+            "hash": "67f198181cd44e60cab84cd8a4f3be09d5be3df3ca597d81d591a20dcdd1e83c"
+        },
+        {
+            "type": "file",
+            "name": "src/components/Modals/StyledComponents.js",
+            "size": 496,
+            "hash": "1e41a68714f4d06b25eec59908e21ac06e0ee151ba08fba17f00aa8dac34b7e4"
+        },
+        {
+            "type": "file",
+            "name": "src/components/Profiler/ElevationProfile.js",
+            "size": 272,
+            "hash": "084f0b2a83e28086d6bac8728e308b24652413148385979eea8a9b28fb8dff12"
+        },
+        {
+            "type": "file",
+            "name": "src/components/Profiler/GraphicChart.js",
+            "size": 5488,
+            "hash": "715815f1c943bc631dff54edc12dee21b94ebbfdb81f542ef930f6f1aad34b17"
+        },
+        {
+            "type": "file",
+            "name": "src/components/Profiler/Tooltip.js",
+            "size": 2424,
+            "hash": "736850047a681cad27284d12644c4e6676cd88e3c6a18d5eeafab71a2f998b85"
+        },
+        {
+            "type": "file",
+            "name": "src/components/Style/Card.css",
+            "size": 1086,
+            "hash": "2b497e66861a177d52ac7ed6161a796b12ca3acdb7adefbce793f79d01eb573d"
+        },
+        {
+            "type": "file",
+            "name": "src/components/Style/Elevation.css",
+            "size": 127,
+            "hash": "a04c44aa8bd866f15b85f6e7d556629bc86c97936d0f609406320fede9573d99"
+        },
+        {
+            "type": "file",
+            "name": "src/components/Style/MoreInfo.module.css",
+            "size": 4728,
+            "hash": "981b0b07e9d76d6d0bbe061ed34be30e145f600381066bf6a3ad2fb64d515ff8"
+        },
+        {
+            "type": "file",
+            "name": "src/components/Style/Poi.module.css",
+            "size": 1016,
+            "hash": "3d3bb221cd52692f515e2be96ba890f6f4c46be472a049be7c5f4b4c7fb2117c"
+        },
+        {
+            "type": "file",
+            "name": "src/components/Style/RightButtons.css",
+            "size": 931,
+            "hash": "61f72bf4e7c93eb731cc80a0bcbe1d053b1baa68dd31cfbb9f057eb6fa8b85ce"
+        },
+        {
+            "type": "file",
+            "name": "src/components/Style/Tooltip.css",
+            "size": 886,
+            "hash": "18a8ed466beda1d7349d30983438e5c811565a8377c3a4ba0dcd3502977418e1"
+        },
+        {
+            "type": "file",
+            "name": "src/components/UI/Chart.js",
+            "size": 4712,
+            "hash": "0ffaa3f6134759c096ce420be607b1e81608e94431b1ff0ba2162d6731fb3d24"
+        },
+        {
+            "type": "file",
+            "name": "src/components/UI/Container.js",
+            "size": 1227,
+            "hash": "3621751c1077ca26bdd8dfbf162ebc5b0970b2c117678b327cf5829127926a2f"
+        },
+        {
+            "type": "file",
+            "name": "src/components/UI/LeftButtons .js",
+            "size": 1981,
+            "hash": "faa1ee7e53c5fc78253ccc952573781af861b047b1d61c71e846f03aaebac48d"
+        },
+        {
+            "type": "file",
+            "name": "src/components/UI/Mapp.js",
+            "size": 5073,
+            "hash": "e32203692e0b4279ab63333a76970af9f737db6b6b6fe787f16b83cb58551aeb"
+        },
+        {
+            "type": "file",
+            "name": "src/components/UI/RightButtons.js",
+            "size": 434,
+            "hash": "46711b9bc96c274dd942e323b503c1600ae34ca779ecaf7ec6b1b7a4aac02752"
+        },
+        {
+            "type": "folder",
+            "name": "src/components/assets/MoreInfo"
+        },
+        {
+            "type": "file",
+            "name": "src/components/assets/currentPosition.svg",
+            "size": 298,
+            "hash": "dc1eee0ca26419d4414b3485a7abb22e87c230f568749a80523a166a0ad32319"
+        },
+        {
+            "type": "file",
+            "name": "src/components/assets/end_icon.svg",
+            "size": 4107,
+            "hash": "4997678669adc7402536694b2a023317397707ef1f3e10115491f907af492423"
+        },
+        {
+            "type": "file",
+            "name": "src/components/assets/start_icon.svg",
+            "size": 3399,
+            "hash": "1d4d9542d59f030b34b12f8be3392b498477825ec28e1919470bf6a63e01e0a7"
+        },
+        {
+            "type": "file",
+            "name": "src/components/config/MarkerContext.js",
+            "size": 86,
+            "hash": "e33c2e6dbbcaaa40f1233921d953397b78e2145e170c84eb3165a18fe43faf03"
+        },
+        {
+            "type": "file",
+            "name": "src/components/config/RouteContext.js",
+            "size": 87,
+            "hash": "dcce98f72b3b8a1e0b98e5e5bc218bbb7ef86bccc692784974318734aed959c4"
+        },
+        {
+            "type": "file",
+            "name": "src/components/config/config.js",
+            "size": 414,
+            "hash": "ab8d01495839f135f16d7aa1fc9c10a0cd810521a19dfbcbfd3245ab468143bc"
+        },
+        {
+            "type": "file",
+            "name": "src/components/translation/i18n.js",
+            "size": 669,
+            "hash": "4c0d0d4376e74a574d8b418219c9fead4fe5044b9aeafaf8bd693594769ea5b8"
+        },
+        {
+            "type": "file",
+            "name": "src/components/assets/MoreInfo/chev.svg",
+            "size": 459,
+            "hash": "934fa2a4e5e932577c9641e072bfefee218fa73d92485ceecbb33f037b535098"
+        },
+        {
+            "type": "file",
+            "name": "src/components/assets/MoreInfo/descriptive.svg",
+            "size": 662,
+            "hash": "675609259aa3c47a1b9c1b1d641a047a77cb289ec8eda010c42efd1b4c790c6c"
+        },
+        {
+            "type": "file",
+            "name": "src/components/assets/MoreInfo/distance.svg",
+            "size": 611,
+            "hash": "11d61425a79c626a8d56dd355f52a4d4d944ac459de66b645307f01fb00fd222"
+        },
+        {
+            "type": "file",
+            "name": "src/components/assets/MoreInfo/downdist.svg",
+            "size": 570,
+            "hash": "ecff4a28b36568588c2d6f05416cec1db0f260c382fe99a083342418ebb903fd"
+        },
+        {
+            "type": "file",
+            "name": "src/components/assets/MoreInfo/gpxicon.svg",
+            "size": 911,
+            "hash": "aa4f931b96559fa76cb36042225f2847fc1b76ab8b2653ce19adf7e92d805a34"
+        },
+        {
+            "type": "file",
+            "name": "src/components/assets/MoreInfo/time.svg",
+            "size": 429,
+            "hash": "689effb8bb4b52b100a55036a073035a9fce337797000ff4c6bcb0a1e2f57b36"
+        },
+        {
+            "type": "file",
+            "name": "src/components/assets/MoreInfo/updist.svg",
+            "size": 688,
+            "hash": "940c491834308fdfe1ff637b27c8567be2b4561246be63c9233d8947d42f4239"
+        }
+    ]
+}

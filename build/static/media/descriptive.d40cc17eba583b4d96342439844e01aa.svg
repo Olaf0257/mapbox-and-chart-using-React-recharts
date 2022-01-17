@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5.014" height="7.949" viewBox="0 0 5.014 7.949">
+  <defs>
+    <style>
+      .cls-desc {
+        fill: #212548;
+      }
+    </style>
+  </defs>
+  <g id="chevron-pointing-to-the-left_1_" data-name="chevron-pointing-to-the-left (1)" transform="translate(5.014 7.949) rotate(180)">
+    <path id="Path_1233" data-name="Path 1233" class="cls-desc" d="M2.343,3.977,4.825,1.5a.628.628,0,0,0,.189-.462A.628.628,0,0,0,4.825.572L4.442.189a.66.66,0,0,0-.924,0L.189,3.513a.659.659,0,0,0,0,.924L3.518,7.761a.659.659,0,0,0,.924,0l.383-.383a.625.625,0,0,0,.189-.46.642.642,0,0,0-.189-.465Z" transform="translate(0)"/>
+  </g>
+</svg>

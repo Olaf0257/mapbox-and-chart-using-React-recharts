@@ -1,0 +1,8 @@
+.elevation {
+  position: absolute;
+  background-color: #212548;
+  padding: 2% 0%;
+  width: 100%;
+  bottom: 0;
+  z-index: 98;
+}

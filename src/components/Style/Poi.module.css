@@ -1,0 +1,79 @@
+.container {
+  background-color: white;
+  padding: 0;
+}
+
+.iconpoi {
+  color: #00ab84;
+  width: 100%;
+}
+
+.diviconpoi {
+  width: 20%;
+}
+
+/*===========
+   ELEMENTS
+   ===========*/
+
+article {
+  margin-left: 20px;
+  margin-right: 23px;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: black;
+  font-weight: lighter;
+  font-size: 19px;
+}
+
+h2 {
+  color: #707070;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.heading {
+  line-height: 0.5;
+  /* margin-bottom: 25px; */
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/*========
+   ICON + BUTTON
+   ==========*/
+
+.map {
+  height: 27px;
+  width: 27px;
+  margin-left: 30px;
+  margin-top: 18px;
+  fill: #00ab84;
+}
+
+.element {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  /* margin-bottom: 20px; */
+}
+
+.close {
+  float: right;
+  position: relative;
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+}

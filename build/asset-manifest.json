@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/app/build/static/css/main.56fc4828.css",
+    "main.js": "/app/build/static/js/main.316b1e38.js",
+    "static/js/787.cb71524b.chunk.js": "/app/build/static/js/787.cb71524b.chunk.js",
+    "static/media/end_icon.svg": "/app/build/static/media/end_icon.bdd7e9dd2bbd142e9eb9b6e6695553e8.svg",
+    "static/media/start_icon.svg": "/app/build/static/media/start_icon.0f71d3127917064281c82a5d8835fa83.svg",
+    "static/media/gpxicon.svg": "/app/build/static/media/gpxicon.2953c93396fa713e424147dfd71aa587.svg",
+    "index.html": "/app/build/index.html",
+    "static/media/updist.svg": "/app/build/static/media/updist.94e00335f8c47bf67ffa9094fa53fb12.svg",
+    "static/media/descriptive.svg": "/app/build/static/media/descriptive.d40cc17eba583b4d96342439844e01aa.svg",
+    "static/media/distance.svg": "/app/build/static/media/distance.10fd2e079651f61daa456edc427cfe03.svg",
+    "static/media/downdist.svg": "/app/build/static/media/downdist.18f8aeea0802ad6870bb996757146622.svg",
+    "static/media/time.svg": "/app/build/static/media/time.9fca13178273e834669668ed57e270eb.svg",
+    "static/media/currentPosition.svg": "/app/build/static/media/currentPosition.0b9af678a8a76ece088d518db37c6113.svg",
+    "main.56fc4828.css.map": "/app/build/static/css/main.56fc4828.css.map",
+    "main.316b1e38.js.map": "/app/build/static/js/main.316b1e38.js.map",
+    "787.cb71524b.chunk.js.map": "/app/build/static/js/787.cb71524b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56fc4828.css",
+    "static/js/main.316b1e38.js"
+  ]
+}
