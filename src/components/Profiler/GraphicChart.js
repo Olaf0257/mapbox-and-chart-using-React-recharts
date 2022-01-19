@@ -1,66 +1,70 @@
+/* eslint-disable max-classes-per-file */
+/* eslint-disable react/no-multi-comp */
 import React, { useContext, useState, useEffect } from 'react'
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { Album } from '@material-ui/icons'
 import { RouteContext } from '../config/RouteContext'
-
-
 import * as turf from '@turf/turf'
 import '../Style/Tooltip.css'
 
-
+const CustomizedDot = (props) => {
+    const { cx, isShow = false, payload: { image }} = props;
+    if (isShow) {
+        return (<image x={cx} y={0} width={30} height={30} xlinkHref={`https://api.guidos.fun/${image}`} alt="" />);
+    } else 
+        return (<></>);
+}
 
 const GraphicChart = props => {
-
     const { routes, setCurrentMarker } = useContext(RouteContext)
-
-
-
     const [currentIndex, setCurrentIndex] = useState(null)
     const [leftKm, setLeftKm] = useState('')
-    //Remaining distance
+    const [totalLen, setTotalLen] = useState(0)
 
+    //Remaining distance
     useEffect((dataNew) => {
         const calcDist = () => {
             const geoSlice = [...routes.geoJson.coordinates]
-
             if (currentIndex > -1 && currentIndex <= geoSlice.length) {
                 dataNew = [...geoSlice.splice(0, geoSlice.length - (currentIndex - 1))]
                 const line = turf.lineString(dataNew);
                 const totallength = turf.lineDistance(line, 'kilometers')
                 setLeftKm(totallength.toFixed(2))
+                setTotalLen(parseFloat(totallength.toFixed(0)))
+                if (totalLen > 0) {
+                }
             }
         }
         calcDist()
     }, [currentIndex])// eslint-disable-line react-hooks/exhaustive-deps
 
-
     //Near poi in geojson
-    //Near poi in geojson
-    //Near poi in geojson
-    //Near poi in geojson
-    var line = turf.lineString(routes.geoJson.coordinates);
-    var pt = turf.point([routes.pointsOfInterest[4].latitude, routes.pointsOfInterest[4].longitude]);
-    var snapped = turf.nearestPointOnLine(line, pt, { units: 'kilometers' });
-    console.log(" ", snapped)
-    console.log("index ", routes.geoJson.coordinates[1306])
-    ////////////////////////////////////////////
-    ////////////////////////////////////////////
-    ////////////////////////////////////////////
-    ////////////////////////////////////////////
-    ////////////////////////////////////////////
-
-
-
+    //Get all poi
     const geodata = [];
-
     for (const dataa of routes.geoJson.coordinates) {
         geodata.push({
             lat: dataa[2],
             lon: dataa[1],
         })
-
     }
 
+    const getCurrentPoiIndex = (line, pt, snapped) => {
+        const poiData = []
+        for (const poi of routes.pointsOfInterest) {
+            poiData.push([poi.longitude, poi.latitude, poi.type.mapIcon.contentUrl])
+        }
+        line = turf.lineString(routes.geoJson.coordinates);
+        for (const points of poiData) {
+            pt = turf.point([points[0], points[1]]);
+            snapped = turf.nearestPointOnLine(line, pt, { units: 'kilometers' });
+            geodata.push({
+                lat: Number(snapped.properties.index),     
+                lan: 0,
+                image: points[2]         
+            });
+        }
+    }
+    getCurrentPoiIndex()
 
     let mark = []
     const dotChart = {
@@ -68,16 +72,13 @@ const GraphicChart = props => {
         stroke: "white",
         strokeWidth: 5,
         onClick: (event, data) => {
-            // console.log(data)
             mark = [routes.geoJson.coordinates[data.index][0], routes.geoJson.coordinates[data.index][1]]
             if (mark !== "undefined") {
                 setCurrentMarker(mark)
                 setCurrentIndex(data.index)
-
             }
         }
     }
-
 
     const CustomTooltip = ({ active, payload, label }) => {
         if (active) {
@@ -112,10 +113,11 @@ const GraphicChart = props => {
         return null;
     };
 
+    const sortGeoData = geodata.sort((a, b) => a.lat - b.lat);
 
     return (
         <ResponsiveContainer width="100%" height={200}>
-            <AreaChart data={geodata} margin={{ top: 20, left: 20, right: 30, bottom: 20 }} >
+            <AreaChart data={sortGeoData} margin={{ top: 30, left: 20, right: 30, bottom: 20 }} >
                 <defs>
                     <linearGradient id="color" x1="0" y1="0" x2="0" y2="1">
                         <stop offset="0%" stopColor="#00AB84" stopOpacity={0.4} />
@@ -126,21 +128,23 @@ const GraphicChart = props => {
                         <stop offset="1%" stopColor="#00AB84" stopOpacity={0.9} />
                     </linearGradient>
                 </defs>
-                <CartesianGrid opacity={0.3} vertical={true} strokeDasharray="1 2" />
-                <XAxis dataKey="lon" axisLine={false} tickLine={false} tickFormatter={number => `${number.toFixed()} km`} />
-                <YAxis axisLine={false} tickLine={false} tickCount={5} tickFormatter={number => `${number} m`} />
-                <Tooltip position={{ y: -20 }} content={< CustomTooltip />} followPointer={true} />
-                <Area type="monotone" dataKey="lat" stroke="url(#line)" strokeWidth={2} fill="url(#color)" activeDot={{ ...dotChart }}>
-                    {/* <LabelList dataKey="poi" position="top" /> */}
-                </Area>
+                <CartesianGrid opacity={0.3} vertical={false} horizontal={true} />
+                <XAxis dataKey="lon" axisLine={true} tickLine={true} tickCount={totalLen} tickFormatter={item => `${Number(item).toFixed() / 2.3 / 4 / 5} km`} />
 
+                <YAxis axisLine={true} tickLine={false} tickCount={5} tickFormatter={number => `${number} m`} />
 
-                <ReferenceLine x={1306} strokeDasharray="5 5" />
-                <ReferenceLine x={867} strokeDasharray="5 5" />
-                <ReferenceLine x={867} strokeDasharray="5 5" />
+                <Tooltip position={{ y: -20 }} content={< CustomTooltip />} />
+
+                <Area type="monotone" dataKey="lat" stroke="url(#line)" strokeWidth={2} fill="url(#color)" activeDot={{ ...dotChart }}
+                    dot={(params) => {
+                        return <CustomizedDot 
+                            {...params} 
+                            isShow={!!params.payload.image}
+                        />
+                    }}
+                />
             </AreaChart>
         </ResponsiveContainer >
     );
-
 }
 export default GraphicChart;
